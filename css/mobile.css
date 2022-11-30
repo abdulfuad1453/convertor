@@ -1,0 +1,176 @@
+@media only screen and (max-width: 880px) and (min-width: 320px) {
+  ul {
+    display: none;
+  }
+  .nav {
+    height: 5vw;
+    background-color: #f5f5f6;
+    position: fixed;
+  }
+
+  #container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  nav {
+    background-color: #f5f5f6;
+    height: max-content;
+    padding: 2vw 8.3vw;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+  }
+
+  #sign-in {
+    width: max-content;
+    height: max-content;
+    background: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+    letter-spacing: 0.06em;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  #main {
+    width: 80vw;
+    padding: 4.66vw 19.59vw 0 19.59vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main > h1 {
+    margin-top: 70px;
+    width: max-content;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .convert-from,
+  .convert-to {
+    height: 28px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2vw;
+    display: flex;
+    align-items: center;
+    color: #9f9f9f;
+  }
+
+  .all-currency-from .each-currency-from,
+  .all-currency-to .each-currency-to {
+    text-align: center;
+    padding: 1.5vw 4vw;
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+    width: calc(100% / 4);
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .text-area {
+    border: 1px solid #c6c6c6;
+    margin-top: 2vw;
+    padding: 11px 14px;
+    height: max-content;
+    margin-bottom: 7vw;
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .text-area input {
+    width: 100%;
+    height: 6vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .text-area input {
+    border: none;
+    outline: none;
+  }
+
+  .text-area p {
+    margin-top: 1.8vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 14px;
+    color: #c6c6c6;
+  }
+
+  .section-container {
+    flex-direction: column;
+  }
+
+  img {
+    width: 80%;
+    margin-top: 4px;
+  }
+
+  .c-p {
+    font-size: 2.4vw;
+    width: max-content;
+  }
+
+  /*! hamburger menu */
+  .hamburger-lines {
+    display: flex;
+    font-size: 3.4vw;
+   align-items: center;
+  }
+
+  .show {
+    padding: 6vw;
+    width: 50vw;
+    position: fixed;
+    top: 9vw;
+    right: 0;
+    height: 300px;
+    background: #f5f5f6;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-ul > li > a {
+    font-size: 2vw;
+  }
+
+  .right-side-nav{
+    flex-direction: row;
+    width: 20%;
+  }
+}
