@@ -7,10 +7,9 @@ class Api {
   async getRemote(obj) {
     try {
       let res = await fetch(this.url);
-      let data = await res.json();  
+      let data = await res.json();
       let cur = await data.rates[obj];
-      return cur; 
-      
+      return cur;
     } catch (error) {
       throw new Error(`error is ${error}`);
     }
@@ -30,8 +29,9 @@ class Api {
       let request = await fetch(this.localUrl, {
         method: "POST",
         body: JSON.stringify(paramsData),
-        headers: { "content-type": "application/json" }
+        headers: { "content-type": "application/json" },
       });
+
       return await request.json();
     } catch (error) {
       throw new Error(`error is ${error}`);
